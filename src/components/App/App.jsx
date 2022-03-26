@@ -25,7 +25,6 @@ export const App = () => {
     if (page === null) {
       return;
     }
-    console.log('lolllololo ', Date.now());
     setLoading(true);
 
     fetchImagesByTag(serchTag, page)
